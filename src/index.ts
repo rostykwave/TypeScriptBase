@@ -11,3 +11,11 @@ numbers.forEach((n) => n.toFixed);
 
 //Tuple
 const user: [number, string, boolean, number] = [1, "some", true, 1];
+
+//Enum
+const enum Size {
+  Small = 1,
+  Medium,
+  Large,
+}
+let mySize: Size = Size.Medium;
